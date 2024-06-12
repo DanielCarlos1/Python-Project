@@ -1,0 +1,12 @@
+#Com o poder do while, as variáveis são infinitas para a realização de códigos com os iteráveis
+
+nome = 'Daniel'
+
+indice = 0
+novo_nome = ''
+while indice < len(nome):
+    letra = nome[indice]
+    novo_nome += f'*{letra}'
+    indice += 1
+novo_nome += '*'
+print(novo_nome)
