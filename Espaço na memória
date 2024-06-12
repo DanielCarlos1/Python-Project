@@ -1,0 +1,6 @@
+#Código utilizado para saber o local que o python está utilizando para salvar as variáveis do seu código
+
+v1 = 'a'
+v2 = 'a'
+print(id(v1))
+print(id(v2))
