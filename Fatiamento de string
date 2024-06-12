@@ -1,0 +1,8 @@
+#Por conta da string ser algo iterável, podemos fatiar a string conforme desejamos, veja esse exemplo:
+#O fatiamento é explicado com a notação [início:fim:passo], onde é possível especificar os índices de início, fim e passo para extrair partes da string.
+
+variavel = 'Olá mundo'
+print(variavel[::-1])  # Saída: odnum álO (a string original invertida)
+#012345678  (índices positivos)
+#Olá mundo
+#-987654321  (índices negativos)
