@@ -9,3 +9,5 @@ else:
     print('Você não digitou nem entrar e nem sair.')
 
 print('FORA DOS BLOCOS')
+
+#Condicionais em Python são estruturas de controle que permitem executar blocos de código diferentes com base em uma condição avaliada como verdadeira ou falsa.
