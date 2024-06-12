@@ -1,0 +1,10 @@
+Formatação básica utilizando o 'f' string
+
+variavel = 'ABC'
+print(f'{variavel}')                    # Saída: ABC
+print(f'{variavel: >10}')               # Saída:        ABC (alinhado à direita)
+print(f'{variavel: <10}.')              # Saída: ABC       . (alinhado à esquerda)
+print(f'{variavel: ^10}.')              # Saída:    ABC    . (centralizado)
+print(f'{1000.4873648123746:0=+10,.1f}')# Saída: +001,000.5 (número com sinal, zeros à esquerda)
+print(f'O hexadecimal de 1500 é {1500:08X}') # Saída: O hexadecimal de 1500 é 000005DC (hexadecimal com zeros à esquerda)
+print(f'{variavel!r}')                  # Saída: 'ABC' (representação crua da string)
